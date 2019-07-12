@@ -27,16 +27,3 @@
   grid-template-rows: 100%;
 }
 
-.panel {
-  background-color: #3D436F;
-  color: white;
-  grid-column: 1 / span 1;
-  border-radius: 5px;
-}
-
-.panel-title {
-  padding: 3%;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-}
