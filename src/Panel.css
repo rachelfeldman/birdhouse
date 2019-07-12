@@ -1,0 +1,25 @@
+div.panel {
+  background-color: #3D436F;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.panel-title {
+  padding: 3%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+i.panel-icon {
+  padding: 0;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+h2.panel-title {
+  padding: 0;
+  margin: 0;
+}

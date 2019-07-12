@@ -1,0 +1,27 @@
+div.flypanel {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+textarea.flypanel {
+  border-radius: 5px;
+  border-size: 0px;
+  font-size: 1.25em;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+button.flypanel {
+  height: 40px;
+  width: 100%;
+  padding: 0px;
+  border-color: #3C99DB;
+  background-color: #3C99DB;
+  font-size: 1.25em;
+  color: white;
+  border-radius: 5px;
+}
