@@ -1,5 +1,6 @@
 import React from 'react';
-import FlyPanel from './FlyPanel.js';
+import FlyPanel from './components/panels/FlyPanel.js';
+import RoostPanel from './components/panels/RoostPanel.js';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <h2 style={{ color: 'white', margin: 0 }}>chirp</h2>
           </div>
         </div>
+        <RoostPanel />
         <div className='panel' style={{ 'gridColumn': '8 / span 1' }}>
           <div className='panel-title'>
             <i style={{ marginTop: '3%', marginRight: '5%' }} className="fas fa-broadcast-tower"></i>
