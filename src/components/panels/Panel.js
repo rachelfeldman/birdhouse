@@ -7,8 +7,8 @@ const Panel = ({ fontAwesomeName, title, gridColumn, children, span }) => (
   </div>
 );
 
-export const PanelBody = ({ children }) => (
-  <div className='panel-body'>
+export const PanelBody = ({ children, style }) => (
+  <div className='panel-body' style={style}>
     {Children.map(children, child => (
         cloneElement(child, {
           className: child.props.className && child.props.className.length > 0 ?
