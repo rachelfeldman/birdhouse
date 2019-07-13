@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/birdhouse/precache-manifest.357519b2def7181c2068caafeb1d5c5a.js"
+  "/birdhouse/precache-manifest.7479141f738c8a82709417e342918b3f.js"
 );
 
 self.addEventListener('message', (event) => {
