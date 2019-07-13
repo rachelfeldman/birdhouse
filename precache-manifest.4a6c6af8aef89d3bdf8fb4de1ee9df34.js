@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dd9b5c760d7a41ed8ade244365c5cf0",
+    "revision": "504c0617287b3d5973f513a615bba782",
     "url": "/birdhouse/index.html"
   },
   {
-    "revision": "1bb68bd8effa0f1882b8",
+    "revision": "7dc986c7cab6068dd7aa",
     "url": "/birdhouse/static/css/main.f44fc4e5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birdhouse/static/js/2.7ad91dd1.chunk.js"
   },
   {
-    "revision": "1bb68bd8effa0f1882b8",
-    "url": "/birdhouse/static/js/main.2445e317.chunk.js"
+    "revision": "7dc986c7cab6068dd7aa",
+    "url": "/birdhouse/static/js/main.a14e6b0f.chunk.js"
   },
   {
     "revision": "a9fa4121184582b96f31",
