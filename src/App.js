@@ -1,6 +1,7 @@
 import React from 'react';
 import FlyPanel from './components/panels/FlyPanel.js';
 import RoostPanel from './components/panels/RoostPanel.js';
+import FeedPanel from './components/panels/FeedPanel.js';
 import './App.css';
 
 function App() {
@@ -11,18 +12,7 @@ function App() {
       </header>
       <div className='container'>
         <FlyPanel />
-        <div className='panel' style={{ 'gridColumn': '4 / span 1' }}>
-          <div className='panel-title'>
-            <i style={{ marginTop: '3%', marginRight: '5%' }} className="fas fa-align-left"></i>
-            <h2 style={{ color: 'white', margin: 0 }}>feed</h2>
-          </div>
-        </div>
-        <div className='panel' style={{ 'gridColumn': '6 / span 1' }}>
-          <div className='panel-title'>
-            <i style={{ marginTop: '3%', marginRight: '5%' }} className="fas fa-comments"></i>
-            <h2 style={{ color: 'white', margin: 0 }}>chirp</h2>
-          </div>
-        </div>
+        <FeedPanel />
         <RoostPanel />
       </div>
     </div>
