@@ -1,0 +1,35 @@
+div.avatar {
+  display: grid;
+  grid-template-columns: 70px 20px calc(100% - 90px);
+  grid-template-rows: 70px;
+}
+
+img.avatar {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+div.avatar-container {
+  border-radius: 50%;
+  grid-column: 1 / span 1;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+}
+
+div.avatar-name {
+  grid-column: 3 / span 1;
+  text-align: left;
+  text-decoration: none;
+}
+
+a.avatar:hover, a.avatar:visited, a.avatar:link, a.avatar:active {
+    text-decoration: none;
+    color: white;
+}
+
+a.avatar:hover {
+  background-color: #2c384e;
+
+}

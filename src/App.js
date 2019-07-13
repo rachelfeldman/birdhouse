@@ -24,12 +24,6 @@ function App() {
           </div>
         </div>
         <RoostPanel />
-        <div className='panel' style={{ 'gridColumn': '8 / span 1' }}>
-          <div className='panel-title'>
-            <i style={{ marginTop: '3%', marginRight: '5%' }} className="fas fa-broadcast-tower"></i>
-            <h2 style={{ color: 'white', margin: 0 }}>roost</h2>
-          </div>
-        </div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export const PanelBody = ({ children }) => (
   <div className='panel-body'>
     {Children.map(children, child => (
         cloneElement(child, {
-          className: child.props.className.length > 0 ?
+          className: child.props.className && child.props.className.length > 0 ?
           child.props.className + ' panel-child' :
           'panel-child'
         }))

@@ -14,19 +14,3 @@ button.flypanel {
   color: white;
   border-radius: 5px;
 }
-
-img.avatar {
-  border-radius: 50%;
-  width: 20%;
-}
-
-div.avatar {
-  display: flex;
-  flex-direction: row;
-}
-
-div.avatar-name {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
