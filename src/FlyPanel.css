@@ -5,27 +5,24 @@ div.flypanel {
   flex-grow: 1;
   align-items: flex-start;
   justify-content: flex-start;
+  width: calc(100% - 40px);
 }
 
 textarea.flypanel {
   border-radius: 5px;
-  width: 80%;
   border-size: 0px;
   font-size: 1.25em;
   padding: 0px;
-  margin: 0px auto 20px auto;
+  border: none;
 }
 
 button.flypanel {
   height: 40px;
-  width: 80%;
-  padding: 0px;
   border-color: #3C99DB;
   background-color: #3C99DB;
   font-size: 1.25em;
   color: white;
   border-radius: 5px;
-  margin: 0px auto 20px auto;
 }
 
 img.avatar {
@@ -36,8 +33,6 @@ img.avatar {
 div.avatar {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  margin: 20px auto 20px auto;
 }
 
 div.avatar-name {

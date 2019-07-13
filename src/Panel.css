@@ -12,11 +12,15 @@ div.panel-title {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 0px auto;
   width: 80%;
-  min-height: 67px;
 }
 
 h2.panel-title {
-  margin-left: 20px;
+  margin: 0 20px;
+}
+
+.panel-child {
+  margin: 20px auto 0px auto;
+  width: 100%;
 }
