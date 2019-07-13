@@ -12,13 +12,15 @@ const Panel = ({ fontAwesomeName, title, gridColumn, children }) => (
 );
 
 export const PanelBody = ({ children }) => (
-  Children.map(children, child => (
-    cloneElement(child, {
-      className: child.props.className.length > 0 ?
-        child.props.className + ' panel-child' :
-        'panel-child'
-    }))
-  )
+  <div className='panel-body'>
+    {Children.map(children, child => (
+        cloneElement(child, {
+          className: child.props.className.length > 0 ?
+          child.props.className + ' panel-child' :
+          'panel-child'
+        }))
+      )}
+  </div>
 );
 
 export default Panel;

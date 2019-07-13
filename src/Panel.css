@@ -13,11 +13,21 @@ div.panel-title {
   align-items: center;
   justify-content: flex-start;
   margin: 20px auto 0px auto;
-  width: 80%;
+  width: calc(100% - 40px);
 }
 
 h2.panel-title {
   margin: 0 20px;
+}
+
+div.panel-body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: calc(100% - 40px);
 }
 
 .panel-child {

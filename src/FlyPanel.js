@@ -9,21 +9,18 @@ const USER = {
 };
 
 const FlyPanel = () => (
-    <Panel fontAwesomeName="fas fa-feather-alt" title='fly' gridColumn='2'>
-      <div className='flypanel'>
-        <PanelBody>
-          <div className='avatar'>
-            <img className='avatar' src={avatar} alt='avatar' />
-            <div className='avatar-name'>
-              <h3>{USER.name}</h3>
-            </div>
-          </div>
-          <textarea className='flypanel' rows="10" />
-          <button className='flypanel'>submit</button>
-
-        </PanelBody>
+  <Panel fontAwesomeName="fas fa-feather-alt" title='fly' gridColumn='2'>
+    <PanelBody>
+      <div className='avatar'>
+        <img className='avatar' src={avatar} alt='avatar' />
+        <div className='avatar-name'>
+          <h3>{USER.name}</h3>
+        </div>
       </div>
-    </Panel>
+      <textarea className='flypanel' rows="10" />
+      <button className='flypanel'>submit</button>
+    </PanelBody>
+  </Panel>
 );
 
 export default FlyPanel;

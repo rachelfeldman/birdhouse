@@ -1,13 +1,3 @@
-div.flypanel {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: calc(100% - 40px);
-}
-
 textarea.flypanel {
   border-radius: 5px;
   border-size: 0px;
